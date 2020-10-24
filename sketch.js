@@ -39,12 +39,12 @@ function setup() {
 	 World.add(world, ground);
 
 	rectPos = width/2-1000;
-	rectY = 605;
+	rectY = 610;
 	 
-     rectangle1 = createSprite(rectPos+100, rectY+40, 200,20);
+         rectangle1 = createSprite(rectPos+100, rectY+40, 200,20);
 	 rectangle1.shapeColor = "red";
 
-	 bottomRect = Bodies.rectangle(rectPos+100, rectY+45-20, 200,20 , {isStatic:true} );
+	 bottomRect = Bodies.rectangle(rectPos+100, rectY+40-20, 200,20 , {isStatic:true} );
 	 World.add(world, bottomRect);
 
 	 rectangle2 = createSprite(rectPos, rectY, 20,100);
